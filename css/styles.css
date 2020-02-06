@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
 
 body{
     font-family: "Poppins", sans-serif;
@@ -8,26 +7,66 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; 
     font-weight: 100;
     margin: 0;
 }
-
+#header {
+    padding: 20px ;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+  
+  #header.header-scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    height: 72px;
+    transition: all 0.8s;
+  }
 
 h3{
     text-decoration: underline;
-    font-weight: bold;
+    font-weight: bold;  
     margin-bottom: 5px;
+    margin-top: 10px;
+}
+.logo{
+    min-height:20px;
+    min-width: 25px;
 }
 
+/* .navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+ } */
 .thumbnail{
-    margin-top: 15px;
+    margin-top: 15px;       
     background-color: #cecece56;
     border-radius: 8px;
+    height:550px;
+    text-align: center;
+}
+/* 
+.thumbnail img{
+    margin;: 10px;
+} */
+.thumbnailB{
+    margin-top: 15px;       
+    background-color: #cecece56;
+    border-radius: 8px; 
+    height:300px;
+    text-align: center;
+    align-items: center;    
 }
 img {
     max-width: 200px;   
-}
+}   
 .navbar {
     border-radius: 0;
     border: 0;
@@ -36,28 +75,38 @@ img {
 	width: 100%;
 	z-index: 100;
 	background-color: none;
-	font-size: 20px;
+    font-size: 20px;
+    position: absolute;
 	}
-/**header navigation **/
+/**header navigation **/    
 
 header .navbar {
     padding: 0px 0;
 }
 
 header .navbar-default {
-    background-color: none;
+    background-color: #000000;
     border: none;
+    position: fixed;
+}
+
+header .navbar-default.black{
+    background-color: #000000;
+    color: white;
 }
 
 header .navbar-default .navbar-nav a {
-    color: blue;
+    color: rgb(29, 83, 145);
     padding: 5px 8px;
 }
 
 header .navbar-default .navbar-nav a:hover {
     color: #E15D5F;
 }
-
+.navbar-right{
+    margin-top:20px;
+    font-size: 16px;
+}
 header .navbar-default .navbar-nav .active a {
     font-weight: 700;
     color: #E15D5F;
@@ -137,7 +186,7 @@ header .navbar-default .navbar-nav .active a:hover {
     color: white;
 }
 
-#contact {
+#contacto {
     background-color: #E4D29D;
     background-image: linear-gradient(to bottom, rgb(190, 24, 24), rgb(68, 14, 14));
     border-top:  20px solid rgb(190, 24, 24);
@@ -160,37 +209,37 @@ footer .navbar-default {
 }
 
 
-#contact {
+#contacto {
     padding: 60px 0;
   }
   
-  #contact .section-header > h3  {
+  #contacto .section-header > h3  {
     color: #F6F6F6;
   }
   
-  #contact .section-header > p  {
+  #contacto .section-header > p  {
     color: #F6F6F6;
   }
   
-  #contact .contact-info {
+  #contacto .contact-info {
     margin-bottom: 20px;
     text-align: center;
   }
   
-  #contact .contact-info i {
+  #contacto .contact-info i {
     font-size: 48px;
     display: inline-block;
     margin-bottom: 10px;
     color: rgb(32, 138, 236);
   }
   
-  #contact .contact-info address,
-  #contact .contact-info p {
+  #contacto .contact-info address,
+  #contacto .contact-info p {
     margin-bottom: 0;
     color:  #999;
   }
   
-  #contact .contact-info h3 {
+  #contacto .contact-info h3 {
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -198,16 +247,16 @@ footer .navbar-default {
     color: rgb(32, 138, 236);
   }
   
-  #contact .contact-info a {
+  #contacto .contact-info a {
     color: #999;
   }
   
-  #contact .contact-info a:hover {
+  #contacto .contact-info a:hover {
     color: rgb(11, 93, 148)
   }
   
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
+  #contacto .contact-address,
+  #contacto .contact-phone,
+  #contacto .contact-email {
     margin-bottom: 20px;
   }

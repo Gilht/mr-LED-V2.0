@@ -12,20 +12,21 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="js/prefixfree.min.js"></script>
-</head>
+</head>  
 
 <body data-spy="scroll" 
 data-target=".navbar-default" data-offset="50">
 
-<header>
-    <nav class="navbar navbar-default" 
+<header id="header">
+    <nav class="navbar navbar-static-top" 
     data-spy="affix" data-offset-top="none"
     role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Pantallas Gigantes de LED<span class="subhead"></span></a>
+                <!-- <a class="navbar-brand" href="#">Pantallas Gigantes de LED<span class="subhead"></span></a> -->
+                <img src="./images/logo.png" class="logo"> 
              </div>   
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav nav-menu navbar-nav navbar-right">
                     <li class="active"><a href="#home">Home</a></li>
                     <li><a href="#empresa">Empresa</a></li>
                     <li><a href="#"class="dropdown-toggle"
@@ -66,7 +67,7 @@ data-target=".navbar-default" data-offset="50">
 
     <div class="row" id="home"></div>
 
-    <div class="carousel slide" id="featured">
+    <div class="carousel slide wow slideInUp" id="featured">
     <ol class="carousel-indicators">
         <li data-target="#featured" data-slide-to="0"</li>
         <li data-target="#featured" data-slide-to="1"</li>
@@ -106,9 +107,9 @@ data-target=".navbar-default" data-offset="50">
 
 
 
-    <div class="row" id="empresa">
+    <div class="row  wow slideInUp" id="empresa">
         <section class="page col-sm-12">
-            <div class="container">
+            <div class="container wow slideInUp">
             <h1>Quienes Somos</h1>
             <p>Somos una empresa dedicada al diseno,desarrollo y fabricacion de pantallas electronicas basadas en tecnologia LED.
                Dando soporte y servicios a los sectores de entretenimiento,publicidad y marketing del pais.nuestros productos y
@@ -134,7 +135,7 @@ data-target=".navbar-default" data-offset="50">
         
      <div class="row" id="exterior">
         <section class="page col-sm-12">
-            <div class="container">
+            <div class="container wow slideInUp">
             <h2>Pantallas led uso Exterior</h2>
 			<p>Son productos Multimedia de Alta Tecnologia que proyectan imagenes de video y sonido
 			 procedentes de distintas fuentes como por ejemplo: Computadoras,camaras de video, DVD's, etc.
@@ -220,9 +221,9 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
             </div>
-    <div class="row" id="interior">
+    <div class="row wow fadeInUp" id="interior">
          <section class="page col-sm-12">
-            <div class="container">
+            <div class="container wow slideInUp">
             <h2>Pantallas Led uso Interior</h2>
             </div>
             </section>
@@ -309,7 +310,7 @@ data-target=".navbar-default" data-offset="50">
 	
 	 <div class="row" id="divisas">
          <section class="page col-sm-12">
-         <div class="container">
+         <div class="container wow slideInUp">
          <h2>Cotizadores de Divisas</h2>
          <p>Usados por Casas de cambio,bancos y establecimientos
 		  cambiarios.se fabrican en medidas y colores de led a 
@@ -323,7 +324,7 @@ data-target=".navbar-default" data-offset="50">
     </div>
             <div class="row">
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/cotizador_1.jpg" alt="exchange_rate photo">
                     <div class="caption">                
                     <h3>Cotizador Full Color</h3>
@@ -331,7 +332,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/cotizador_2.jpg" alt="cab photo">
                     <div class="caption">                  
                     <h3>Alto brillo en el dia</h3>
@@ -339,18 +340,18 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                  <section class="col-sm-3">
-                   <div class="thumbnail">
-                    <img src="images/cotizador5.jpg" alt="image_clock photo">
+                   <div class="thumbnailB">
+                    <img src="images/cotizador5.jpg" style="height:200px;" alt="image_clock photo">
                     <div class="caption">
                     <h3>Alto brillo nocturno</h3>
                     </div>
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
-                    <img src="images/cotizador_totem.jpg" alt="remolque photo">
+                   <div class="thumbnailB">
+                    <img src="images/cotizador_totem.jpg" style="height:200px;" alt="remolque photo">
                     <div class="caption">                   
-                    <h3>Instalacion en Totem</h3>
+                    <h3 >Instalacion en Totem</h3>
                    </div>
                    </div>
                 </section>
@@ -358,7 +359,7 @@ data-target=".navbar-default" data-offset="50">
     
    <div class="row" id="combustibles">
          <section class="page col-sm-12">
-         <div class="container">
+         <div class="container wow slideInUp">
          <h2>Preciadores de Combustibles </h2>
         <p>Construidos con proteccion IP65 y bajo las normas oficiales
 		   ,puede ser controlado a un rango hasta 150mts por medio de 
@@ -370,7 +371,7 @@ data-target=".navbar-default" data-offset="50">
     </div>
             <div class="row">
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/g1.jpg" alt="exchange_rate photo">
                     <div class="caption">                
                     <h3>Panel Led Remoto</h3>
@@ -378,7 +379,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/pemex3.jpg" alt="cab photo">
                     <div class="caption">                  
                     <h3>Panel Led Independiente</h3>
@@ -386,7 +387,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                  <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/pemex2.jpg" alt="image_clock photo">
                     <div class="caption">
                     <h3>Panel Led monocromatico</h3>
@@ -394,7 +395,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/pemex1.jpg" alt="remolque photo">
                     <div class="caption">                   
                     <h3>Panel Full Color</h3>
@@ -409,7 +410,7 @@ data-target=".navbar-default" data-offset="50">
     <div class="row" id="display">
          <section class="page col-sm-12">
             
-            <div class="container">
+            <div class="container wow slideInUp">
             <h2>Paneles LED</h2>
             </div>
             
@@ -418,7 +419,7 @@ data-target=".navbar-default" data-offset="50">
             <div class="row">
                 <section class="col-sm-3">
                    <div class="thumbnail">
-                    <img src="images/farmacia.jpg" alt="exchange_rate photo">
+                    <img src="images/farmacia.jpg" style="height: 250px;" alt="exchange_rate photo">
                     <div class="caption">                
                     <h3>Tableros de cruz</h3>
                     <p>Usado en farmacias y centros medicos </p>
@@ -458,7 +459,7 @@ data-target=".navbar-default" data-offset="50">
 	<div class="row" id="varios">
          <section class="page col-sm-12">
             
-            <div class="container">
+            <div class="container wow slideInUp">
             <h2>Tableros LED</h2>
             </div>
             
@@ -519,7 +520,7 @@ data-target=".navbar-default" data-offset="50">
     </div>
             <div class="row">
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/reparacion1.jpg" alt="exchange_rate photo">
                     <div class="caption">                
                     <h3>Ajustes de color</h3>
@@ -528,7 +529,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/reparacion2.jpg" alt="cab photo">
                     <div class="caption">                  
                     <h3>Reparacion de Modulos</h3>
@@ -537,7 +538,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                  <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/reparacion3.jpg" alt="image_clock photo">
                     <div class="caption">
                     <h3>Cambios de Fuentes</h3>
@@ -546,8 +547,8 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
-                    <img src="images/reparacion4.jpg" alt="remolque photo">
+                   <div class="thumbnailB">
+                    <img src="images/reparacion4.jpg" style="height: 200px;" alt="remolque photo">
                     <div class="caption">                   
                     <h3>Instalaciones de pantallas</h3>
                    
@@ -567,7 +568,7 @@ data-target=".navbar-default" data-offset="50">
     </div>
             <div class="row">
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/controlcard1.jpg" alt="exchange_rate photo">
                     <div class="caption">                
                     <h3>Targeta de Control</h3>
@@ -575,7 +576,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/powersuplie1.jpg" alt="cab photo">
                     <div class="caption">                  
                     <h3>Fuente de Poder</h3>
@@ -583,7 +584,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                  <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/panelled2.jpg" alt="image_clock photo">
                     <div class="caption">
                     <h3>Modulo Led monocromatico</h3>
@@ -591,7 +592,7 @@ data-target=".navbar-default" data-offset="50">
                    </div>
                 </section>
                 <section class="col-sm-3">
-                   <div class="thumbnail">
+                   <div class="thumbnailB">
                     <img src="images/ledmodule1.jpg" alt="remolque photo">
                     <div class="caption">                   
                     <h3>LED Modulo Full Color</h3>
@@ -630,8 +631,8 @@ data-target=".navbar-default" data-offset="50">
               </section> -->
 
 
-              <section id="contact" class="section-bg wow fadeInUp">
-               <div class="container">
+              <section id="contacto" class="section-bg wow fadeInUp">
+               <div class="container wow slideInUp">
          
                  <div class="section-header">
                    <h3>Contactanos</h3>
