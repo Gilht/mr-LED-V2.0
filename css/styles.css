@@ -11,7 +11,28 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
     margin: 0;
 }
-#header {
+
+nav.move{    
+    background-color: rgba(32, 29, 29, 0.932);
+    border-radius: 0;
+    color: rgb(207, 46, 46);
+}
+
+/* nav {
+    background-color: rgba(192, 189, 189, 0.856);
+    width: 40px;
+    display: initial;
+} */
+ /* .nav{
+    background-color: rgb(192, 189, 189);
+    border-radius: 6px;
+    font-size: 16px;
+} */
+/* .container{
+    margin-right: 10px !; 
+    margin-left: 10px !; 
+} */
+/* #header {
     padding: 20px ;
     height: 92px;
     position: fixed;
@@ -21,13 +42,28 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.5s;
     z-index: 997;
   }
+   */
+   #header {
+    position: relative;
+    background-color: rgb(253, 249, 249);
+    border-bottom: 1px solid rgb(54, 45, 45);
+    z-index: 199 !important;
+   }
+
+#header .container{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+  }     
   
-  #header.header-scrolled {
-    background: rgba(0, 0, 0, 0.9);
-    padding: 20px 0;
-    height: 72px;
-    transition: all 0.8s;
-  }
+  #mainMenu {
+    float: right;
+    font-size: 18px;
+}
+
+ .main-menu li > a:hover{
+    color:red;
+}
 
 h3{
     text-decoration: underline;
@@ -35,16 +71,14 @@ h3{
     margin-bottom: 5px;
     margin-top: 10px;
 }
-.logo{
-    min-height:20px;
-    min-width: 25px;
+#logo {
+    float: left;
+    font-size: 28px;
+    line-height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-right: 15px;
 }
-
-/* .navbar {
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
- } */
 .thumbnail{
     margin-top: 15px;       
     background-color: #cecece56;
@@ -71,6 +105,11 @@ img {
     border-radius: 0;
     border: 0;
 }
+
+.navbar-nav>li>a {
+font-size: 20px;
+}
+
 .navbar-default  {
 	width: 100%;
 	z-index: 100;
@@ -104,7 +143,7 @@ header .navbar-default .navbar-nav a:hover {
     color: #E15D5F;
 }
 .navbar-right{
-    margin-top:20px;
+    margin-top:10px;
     font-size: 16px;
 }
 header .navbar-default .navbar-nav .active a {
@@ -125,6 +164,14 @@ header .navbar-default .navbar-nav .active a:hover {
 
 
 #mission {
+	background-color: #E4D29D;
+    background-image: linear-gradient(to bottom, rgb(190, 24, 24), rgb(68, 14, 14));
+    border-top:  20px solid rgb(190, 24, 24);
+    color: white;
+}
+
+#empresa {
+    text-align: center;
 	background-color: #E4D29D;
     background-image: linear-gradient(to bottom, rgb(190, 24, 24), rgb(68, 14, 14));
     border-top:  20px solid rgb(190, 24, 24);
@@ -260,3 +307,5 @@ footer .navbar-default {
   #contacto .contact-email {
     margin-bottom: 20px;
   }
+
+  

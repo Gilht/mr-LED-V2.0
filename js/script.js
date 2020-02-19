@@ -29,16 +29,17 @@
 //           $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
 //           $('#mobile-body-overly').fadeOut();
 //         }
-//         return false;
+//         return false;  
 //       }
 //     }
 //   });
 
-  $(window).on("scroll",function(){
-    if($(window).scrollTop()){
-        $('navbar-default').addClass('black');
+  $(window).scroll(function(){
+    if ($(document).scrollTop() > 50 ) {
+      $('nav').addClass('move') 
     }
     else{
-      $('navbar-default').removeClass('black');
+      $('nav').removeClass('move');
+
     }
-  })
+  });
