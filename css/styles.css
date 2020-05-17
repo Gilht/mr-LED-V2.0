@@ -6,8 +6,8 @@ body {
 
 .bk-red {
   background-color: #e4d29d;
-  background-image: linear-gradient(to bottom, rgb(190, 24, 24), rgb(68, 14, 14));
-  border-top: 20px solid rgb(190, 24, 24);
+  background-image: linear-gradient(to bottom, rgb(26, 98, 165), rgb(2, 36, 68));
+  border-top: 20px solid rgb(29, 98, 165);
   color: white;
   margin-top: 40px;
   padding-top: 30px;
@@ -17,8 +17,8 @@ body {
 }
 .back-to-top{
   position: fixed;
-  display: none;
-  background: #E15D5F;
+  display: none;  
+  background: rgb(15, 102, 136);
   color: #fff;
   width: 64px;
   height: 64px;
@@ -76,7 +76,9 @@ body {
 .infoThumb {
   font-size: 20px;
 }
-
+.caption{
+  height: 100%;
+}
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
@@ -122,9 +124,8 @@ body {
  }
 
 #contacto {
-  background-color: #E4D29D;
-    background-image: linear-gradient(to bottom, rgb(190, 24, 24), rgb(68, 14, 14));
-    border-top:  20px solid rgb(190, 24, 24);
+  background-color: rgb(29, 98, 165);
+    border-top:  20px solid rgb(29, 98, 165);
     color: white;
     margin-top: 10px;
 }
@@ -148,7 +149,7 @@ body {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: rgb(32, 138, 236);
+  color: rgb(255, 255, 255);
 }
 
 #contacto .contact-info address,
@@ -162,7 +163,7 @@ body {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: rgb(32, 138, 236);
+  color: rgb(136, 151, 165);
 }
 
 #contacto .contact-info a {
@@ -255,7 +256,7 @@ body {
   .back-to-top{
     position: fixed;
     display: none;
-    background: #E15D5F;
+    background: rgb(14, 124, 175);
     color: #fff;
     width: 44px;
     height: 44px;
@@ -269,4 +270,48 @@ body {
     z-index: 11;
   }
   
+}
+
+@media (min-width: 1000px  ) {
+  .contain-img {
+    padding: 30px;
+    margin-top: 15px;
+    background-color: #cecece56;
+    border-radius: 8px;
+    height: 450px;
+    text-align: center;
+  }
+} 
+@media (min-width: 1200px  ) {
+  .contain-img {
+    padding: 30px;
+    margin-top: 15px;
+    background-color: #cecece56;
+    border-radius: 8px;
+    height: 700px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 1500px  ) {
+  .contain-img {
+    padding: 30px;
+    margin-top: 15px;
+    background-color: #cecece56;
+    border-radius: 8px;
+    height: 550px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1900px  ) {
+  .contain-img {
+    padding: 30px;
+    margin-top: 15px;
+    background-color: #cecece56;
+    border-radius: 8px;
+    height: 50  0px;
+    text-align: center;
+  }
 }
