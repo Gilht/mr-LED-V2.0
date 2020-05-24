@@ -25,7 +25,7 @@ body {
   text-align: center;
   line-height: 1;
   font-size: 16px;
-  border-radius: 50%;
+  border-radius: 50%; 
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
@@ -62,7 +62,10 @@ body {
 .cuadros_chicos {
   height: 200px;
 }
-
+.imgNormal{
+  width: 300px;
+  height: 200px;
+}
 .tituloThumb {
   text-decoration: underline;
   font-weight: bold;
@@ -271,6 +274,29 @@ body {
   }
   
 }
+@media (max-width: 360px ) {
+  .contain-img {
+    padding: 30px;
+    width: 500px;
+    margin-top: 15px;
+    background-color: #cecece56;
+    border-radius: 8px;
+    height: 6 00px;
+    text-align: center;
+}
+.imgNormal{
+  width: 150px;
+  height: 180px;
+}
+.bk-red{
+  width: 500px;
+}
+
+#varios{
+  width: 500px;
+}
+}
+
 
 @media (min-width: 1000px  ) {
   .contain-img {
@@ -282,7 +308,7 @@ body {
     text-align: center;
   }
 } 
-@media (min-width: 1200px  ) {
+@media screen and (min-width: 1200px ) {
   .contain-img {
     padding: 30px;
     margin-top: 15px;
@@ -290,11 +316,14 @@ body {
     border-radius: 8px;
     height: 700px;
     text-align: center;
-  }
+}
+.imgNormal{
+  width: 215px;
+  height: 220px;
+}
 }
 
-
-@media (min-width: 1500px  ) {
+@media screen and (min-width: 1500px ) {
   .contain-img {
     padding: 30px;
     margin-top: 15px;
@@ -303,8 +332,11 @@ body {
     height: 550px;
     text-align: center;
   }
+  .imgNormal{
+    width: 300px;
+    height: 200px;  
 }
-
+}
 @media (min-width: 1900px  ) {
   .contain-img {
     padding: 30px;
@@ -314,4 +346,8 @@ body {
     height: 50  0px;
     text-align: center;
   }
+  .imgNormal{
+    width: 300px;
+    height: 200px;  
+}
 }
